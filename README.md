@@ -1,0 +1,4 @@
+- 👋 Opa! sou @Victorferreira196
+- 👀 Estou interessado em evoluir minhas habilidades de programação
+- 🌱 No momento estou estudando tecnologias full stack
+- 📫 Entre em contato comigo atráves do meu email victorferreiraimoes196@gmail.com
