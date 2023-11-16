@@ -26,16 +26,14 @@
             fetch('https://cdn.anychart.com/samples/tree-map-charts/top-1000-companies/data.json')
                 .then(response => response.json())
                 .then(data => {
-                    // Cria uma estrutura de árvore a partir dos dados
                     var dataTree = anychart.data.tree(data, 'as-table');
 
                     var chart = anychart.treeMap(dataTree);
-
-                    // Configura o gráfico
+                    
                     chart.hintDepth(1)
                         .hintOpacity(0.8)
                         .selectionMode('none');
-
+                    
                     chart.credits()
                         .enabled(true)
                         .url('https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq')
